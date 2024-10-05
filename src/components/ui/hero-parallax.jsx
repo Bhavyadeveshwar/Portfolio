@@ -13,7 +13,7 @@ export const HeroParallax = ({ products }) => {
 
   const springConfig = { stiffness: 300, damping: 30, bounce: 100 };
 
-  const translateX = useSpring(useTransform(scrollYProgress, [0, 1], [0, 1000]), springConfig);
+  const translateX = useSpring(useTransform(scrollYProgress, [0, 1], [0, 999]), springConfig);
   const translateXReverse = useSpring(useTransform(scrollYProgress, [0, 1], [0, 500]), springConfig);
 
   return (
