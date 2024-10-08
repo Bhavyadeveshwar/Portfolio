@@ -5,9 +5,10 @@ export default function Gallery() {
     <div>
         <div class="grid grid-cols-2 gap-4 md:grid-cols-4">
   <div class="grid gap-4">
-    <div>
+    <div className='w-full relative'>
       <img
-        class="h-auto max-w-full rounded-lg object-cover object-center"
+        class=" max-w-full object-cover object-center mx-auto overflow-hidden 
+        w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
         src="https://images.unsplash.com/photo-1432462770865-65b70566d673?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80"
         alt="gallery-photo"
       />
