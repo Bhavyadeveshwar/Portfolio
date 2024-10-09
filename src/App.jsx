@@ -5,7 +5,7 @@ import { GoogleGeminiEffect } from "./components/ui/google-gemini-effect";
 import Gallery from "./components/Gallery";
 
 function App() {
-  const pathLengths = [1, 0.8, 0.6, 0.4, 0]; 
+  const pathLengths = [0, 0, 0, 0, 0]; 
   return (
     
       
