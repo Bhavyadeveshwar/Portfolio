@@ -11,9 +11,10 @@ function App() {
       
     <div className="bg-gradient-to-b from-black via-gray-900 to-gray-800 min-h-screen text-white">
     <div className="App">
-    <GoogleGeminiEffect/>
+    
       <HeroParallaxDemo />
       <Gallery/>
+      
     </div>
     </div>
   );
