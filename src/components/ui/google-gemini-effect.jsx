@@ -10,7 +10,7 @@ const transition = {
 };
 
 export const GoogleGeminiEffect = ({
-  pathLengths = [0, 0, 0, 0, 1], // default values for pathLengths
+  pathLengths = [0, 0, 0, 0, 0], 
   title,
   description,
   className
